@@ -1,4 +1,6 @@
 # get-env-info
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Fget-env-info.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Fget-env-info?ref=badge_shield)
+
 
 Github action for getting environment information.  
 Outputs useful information like go version and node version by reading files like go.mod and package.json
@@ -38,3 +40,7 @@ steps:
 | --- | --- |
 | `go_version` | The version of Go mentioned in go.mod file. |
 | `node_version` | The version of Node mentioned in package.json file under "engines": {"node":"vX.Y.Z"} |
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Fget-env-info.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Fget-env-info?ref=badge_large)
